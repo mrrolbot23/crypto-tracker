@@ -10,6 +10,7 @@ const App = () => {
   return (
     <>
       <Navbar />
+      <Search />
       <Routes>
         <Route path="/" element={<Search />} />
         <Route path="/coin" element={<Coin />}>
