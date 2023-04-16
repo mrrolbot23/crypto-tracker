@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://mrrolbot23.github.io/crypto-tracker",
+  "homepage": "https://mrrolbot23.github.io/",
   "eslintConfig": {
     "extends": [
       "react-app",
