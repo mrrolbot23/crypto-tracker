@@ -1,0 +1,12 @@
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.coin-text {
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    height: 2rem;
+    width: 30vw;
+    background:none;
+}

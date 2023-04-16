@@ -1,0 +1,73 @@
+
+/* Styling of table heading on Coins.jsx */
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0 0 12px #18191b ;
+    border-radius: 1rem;
+    margin: 2rem 2rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+}
+
+.search-title {
+    margin-bottom: 10px;
+}
+
+.coin-name {
+    margin-left: -4rem;
+}
+
+.coin-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0 0 12px #18191b ;
+    border-radius: 1.5rem;
+    margin: 2rem 2rem;
+    padding: .7rem 1rem;
+}
+
+.coin-trending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0 0 12px #18191b ;
+    border-radius: 1.5rem;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+}
+
+
+.coin-row:hover {
+    transform: scale(1.03);
+    transition: .3s ease-in-out;
+}
+
+img {
+    height: 40px;
+    width: auto;
+    margin-right: 8px;
+}
+
+.image-symbol {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 720px){
+    .hide-mobile {
+        display: none;
+    }
+    
+}
